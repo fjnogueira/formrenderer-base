@@ -120,7 +120,7 @@
       return 'withCredentials' in new XMLHttpRequest();
     },
     projectUrl: function() {
-      return "" + this.options.screendoorBase + "/projects/" + this.options.project_id;
+      return "" + this.options.screendoorBase + "/projects/" + this.options.project_id + "/responses/new";
     },
     loadFromServer: function(cb) {
       if ((this.options.response_fields != null) && (this.options.response.responses != null)) {

@@ -56,7 +56,7 @@ window.FormRenderer = FormRenderer = Backbone.View.extend
     'withCredentials' of new XMLHttpRequest()
 
   projectUrl: ->
-    "#{@options.screendoorBase}/projects/#{@options.project_id}"
+    "#{@options.screendoorBase}/projects/#{@options.project_id}/responses/new"
 
   # Fetch the details of this form from the Screendoor API
   loadFromServer: (cb) ->
