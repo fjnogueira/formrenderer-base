@@ -78,7 +78,7 @@ window.FormRenderer = FormRenderer = Backbone.View.extend
       error: (xhr) =>
         if !@corsSupported()
           @$el.find('.fr_loading').html("""
-            Your browser does not support this embedded form. Please visit
+            Sorry, your browser does not support this embedded form. Please visit
             <a href='#{@projectUrl()}'>#{@projectUrl()}</a> to fill out
             this form.
           """)
